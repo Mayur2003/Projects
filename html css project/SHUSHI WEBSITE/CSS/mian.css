@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color-scheme: dark;
+    /* outline: 1px solid green; */
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  :root {
+    --blue: rgb(33, 36, 61);
+    --cream: rgb(255, 209, 126);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  /*  NAV STARTS  */
+  
+  
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.9%;
+    background-color: var(--blue);
+    padding: 0.6% 2.7%;
+  }
+  
+  
+  
+  #logo {
+    width: 12.9%;
+  }
+  
+  #search {
+    width: 2.1%;
+  }
+  
+  #navlinks {
+    width: 54%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #navlinks2 summary{
+    display: none;
+    font-size: 1.8125rem;
+  }
+  
+  #navlinks a {
+    color: white;   
+    font-size: 1.3125rem;
+  }
+  
+  #navlinks a:hover {
+    color: orange;
+    border-bottom: 2px solid orange;
+    padding-bottom: 6.3%;
+  }
+  
+  #search:hover {
+    transform: rotate(360deg);
+    color: green;
+    transition: transform 1008ms;
+  }
+  
+  
+  
+  /*  NAV ENDS  */
+  
+  
+  header {
+    background-image: url(../IMAGES/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .headcontent {
+    width: 54%;
+    margin-inline: 2.7%;
+    padding-bottom: 12.9%;
+  }
+  
+  .headcontent * {
+    display: block;
+    margin-top: 12.9%;
+  
+  }
+  
+  .headcontent h1 {
+    font-size: 5.0625rem;
+  }
+  
+  .headcontent p {
+    font-size: 27px;
+  }
+  
+  .headcontent a {
+    width: 24%;
+    color: white;
+    font-weight: 630;
+    background-color: var(--blue);
+    padding: 1.5% 3.6%;
+    text-align: center;
+    border-radius: 1.3125rem;
+  }
+  
+  
+  
+  
+  
+
+/* second section  */
+
+#menu{
+    background-color: rgb(33, 36, 61);
+    color: aliceblue;
+    position: relative;
+    overflow: hidden;
+}
+.menu-head,.sec4-head{
+    width: 63%;
+    text-align: center;
+    margin-inline: auto;
+    padding-block: 3.8%;
+}
+
+.menu-head>h2,.sec4-head>h2{
+    font-size: 40px;
+    margin-block: 4%;
+}
+
+.menu-head>p,.sec4-head>p{
+    font-size: 22px;
+}
+
+.menu-item,.sec4-item{
+    width: 78%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-bottom:4%;
+    padding-top: 4%;
+    text-align: center;
+}
+
+.menu1{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 26%;
+}
+
+.menu1>img{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+}
+
+.menu1>p{
+    margin-top: 10%;
+}
+.menu1>h5{
+    font-size: 25px;
+    margin-top: 10%;
+}
+
+.shape *{
+    position: absolute;
+
+}
+.shape :nth-child(1)
+{
+    right: -18px;
+    top: -50px;
+}
+
+ .shape :nth-child(2)
+{
+    
+  left: -108px;
+  bottom: 108px;
+    
+}
+
+.shape :nth-child(3)
+{
+  
+  top: 21%;
+  left: 9%;
+}
+
+.shape :nth-child(4)
+{
+    bottom: 15%;
+    right: 0;
+}
+
+.shape :nth-child(5)
+{
+  left: 20%;
+  top: -1.5%;
+} 
+
+
+.shape :nth-child(6)
+{
+
+  transform: rotate(90deg);
+   
+    bottom: 35%;
+    right: -3.5%;
+} 
+
+/* ---------------------------------------------------------- */
+
+
+#food3,#food5{
+  background-color: khaki;
+  padding-block: 12.9%;
+}
+
+.food3,.food5{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+.food3text,.food5text{
+  width: 40%;
+}
+.food3text *,.food5text *{
+  display: block;
+  margin-top: 9%;
+}
+
+.food3>img,.food5>img{
+  width: 33%;
+  height: 360px;
+  border-radius: 50%;
+}
+
+.food3text>h3,.food5text>h3{
+    font-size: 3.375rem;
+    color: var(--blue);
+}
+.food3text>p,.food5text>p{
+  font-size: 1.8125rem;
+  color: var(--blue);
+  font-style: italic;
+}
+.food3text>a,.food5text>a{
+  width: 33%;
+  font-size: 1.3125rem;
+  color: white;
+  background-color: rgb(33,36,61);
+  text-align: center;
+  padding: 1.5% 2.7%;
+  border-radius: 3.375rem;
+}
+
+
+
+/* 4th page css */
+.me1,.me2,.me3{
+    background-color: rgb(33, 36, 61);
+    padding: 8%;
+    border-radius: 120px;
+    border: 2px solid aliceblue;
+}
+
+#sec4{
+    background-color: rgb(33, 36, 61);
+    color: aliceblue;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 5%;
+}
+
+.me1>h3,.me2>h3,.me3>h3{
+    font-size: 30px;
+}
+
+
+/* sec 6 css */
+
+#sec6{
+    background-image: url(../IMAGES/sec6.png);
+    padding-top: 12%;
+    padding-bottom: 7%;
+}
+
+.sec6img{
+   margin-left: 40%;
+
+  
+}
+
+.sec6img>img{
+    border-radius: 120px;
+    height: 10%;
+    margin: 0 auto;
+}
+
+.sec6head{
+   
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(178, 13, 13);
+    padding-top: 4%;
+}
+
+.sec6head>p{
+    font-size: 22px;
+    padding-bottom: 4%;
+}
+
+.sec6head>h4{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+/* sec7 css */
+
+#sec7{
+    background-color: khaki;
+    padding-top: 15%;
+    padding-bottom: 20%;
+    position: relative;
+    overflow: hidden;
+}
+
+.sec7head{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sec7head>h2{
+    font-size: 49px;
+    color: rgb(33, 36, 61);
+    padding-bottom: 4%;
+}
+
+.sec7head>p{
+    font-size: 22px;
+    color: rgb(33, 36, 61);
+    padding-bottom: 4%;
+}
+
+#mk{
+    background-color:rgb(33, 36, 61);
+    color: aliceblue;
+    border-radius: 120px;
+    padding: 2% 8%;
+}
+
+.sec7in>button {
+    padding: 1% 3.9%;
+    font-weight: 690;
+    font-size: 18px;
+    border-radius: 110px;
+    border: none;
+    background-color: rgb(33, 36, 61);
+    color: aliceblue;
+  }
+
+
+
+  /* footer css */
+
+  footer{
+    background-color: black;
+    color: aliceblue;
+  }
+
+  #sec8{
+    padding-top: 20%;
+    padding-bottom: 15%;
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .foot1{
+    width: 40%;
+    margin-left: 4%;
+  }
+  .foot1>h2{
+    font-size: 33px;
+  }
+
+  .fot2{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+  }
+  #io>h3{
+    font-size: 30px;
+  }
+  #op>a{
+    font-size: 18px;
+  }

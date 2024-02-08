@@ -1,0 +1,511 @@
+
+@media (max-width: 1200px)
+{
+    .bimg>img{
+        width: 40%;
+        height: 40%;
+     
+    }
+} 
+
+
+
+@media (max-width: 912px) 
+{
+    .logo>img{
+        width: 70%;
+    }
+   
+   
+    .bimg>img{
+        border-radius: 50%;
+        height: 60%;
+    }
+
+    .bimg{
+        width: 90%;
+        height: 60%;
+     
+    }
+    
+
+    .bcon{
+        width: 30%;
+    }
+
+    .bcon>h3{
+        font-size: 40px;
+        padding-bottom: 2%;
+    }
+
+
+    #kl>h5{
+        font-size: 28px;
+        padding-block-end: 3%;
+    }
+
+    #lk>a{
+        font-size: 20px;
+        
+    }
+    .foot2{
+        width: 60%;
+    }
+
+}
+
+@media (max-width: 660px) 
+{
+
+    .logo>img{
+        width: 60%;
+    }
+
+    #links{
+        display: none;
+    }
+    #menu{
+        display: inline;
+    }
+
+    .content{
+        width: 60%;
+    }
+
+    .content>button{
+        font-size: 20px;
+    }
+
+    .chhead>p{
+        width: 70%;
+    }
+
+    .chef1>img{
+        width: 10.1875rem;
+        height: 10.1875rem;
+    }
+
+    .bimg>img{
+        border-radius: 50%;
+        height: 55%;
+        width: 55%;
+    }
+
+    .bcon{
+        width: 40%;
+    }
+
+    .bcon>h3{
+        font-size: 40px;
+        padding-bottom: 2%;
+    }
+
+    .bcon>p{
+        font-size: 20px;
+        padding-bottom: 3%;
+        text-align: justify;
+    }
+
+
+    .statehead>p{
+        font-size: 20px;
+        width: 80%;
+       text-align: justify;
+    }
+
+    .sf1{
+        padding: 3%;
+    }
+
+    .sf1>h2{
+        font-size: 30px;
+    }
+    
+    .sf1>h4{
+        font-size: 20px;
+    }
+    
+    .pack1{
+        width: 30%;
+    }
+
+
+    .pack1>h2{
+        font-size:20px;
+    }
+    
+    .pack1>img{
+        width: 23%;
+    }
+    
+    .pack1 :nth-child(3){
+  
+        font-size: 18px;
+        text-align: justify;
+    }
+    
+    .pack1 :nth-child(4){
+        
+        font-size: 20px;
+        width: 80%;
+    }
+    
+    .pack1>button{
+        font-size: 18px;
+        padding: 2% 4%;
+        
+    }
+
+    .bgcontent{
+        width: 60%;
+    }
+    
+    
+.bgcontent>p{
+    font-size: 25px;
+    text-align: justify;
+}
+
+
+.upcon>h2{
+    font-size: 30px;
+}
+
+.upcon>p{
+    width: 55%;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.foot1{
+    width: 30%;
+}
+
+.foot1>h2{
+    font-size: 30px;
+
+}
+
+.foot1>p{
+    font-size: 15px;
+  
+}
+
+.foot2{
+    width: 65%;
+}
+
+#kl>h5{
+    font-size: 20px;
+
+}
+
+#lk>a{
+    font-size: 15px;
+}
+
+
+}
+
+@media (max-width: 540px)
+{
+
+    .logo>img{
+        width: 50%;
+    }
+
+
+    .content{
+        width: 70%;
+    }
+
+    .content>button{
+        font-size: 18px;
+    }
+
+    .content>p{
+        font-size: 20px;
+    }
+
+    
+    .chhead>p{
+        width: 80%;
+        font-size: 20px;
+    }
+    .chflex{
+        flex-direction: column;
+    }
+
+    .stateflex{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .sf1{
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    .pflex{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .pack1{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+
+    .chhead>h3{
+        font-size: 28px;
+    }
+
+    .chef1>img{
+        width: 8.1875rem;
+        height: 8.1875rem;
+    }
+
+    .chef1>h4{
+        font-size: 28px;
+    }
+
+    .chef1>p{
+        font-size: 20px;
+    }
+
+    
+    .bimg>img{
+       
+        height: 50%;
+        width: 50%;
+    }
+
+ 
+
+    .bcon>h3{
+        font-size: 28px;
+        padding-bottom: 2%;
+    }
+
+    .bcon>p{
+        font-size: 18px;
+        
+    }
+
+    .bcon>button{
+        font-size: 18px;
+    }
+
+    .bgcontent{
+        width: 70%;
+    }
+
+    .upcon>h2{
+        font-size: 28px;
+        word-spacing: 1px;
+    }
+
+
+    .foot{
+        flex-direction: column;
+        gap: 25px;
+    }
+    .foot1{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .foot1>h2{
+        font-size: 30px;
+    }
+
+    .foot1>p{
+        font-size: 20px;
+    }
+    .foot2{
+        margin: 0 auto;
+        width: 95%;
+    }
+
+    #kl>h5{
+        font-size: 30px;
+        padding-block-end: 3%;
+    }
+    
+    #lk>a{
+        font-size: 20px;
+        
+    }
+    
+
+}
+    @media (max-width: 360px)
+    {
+        .logo>img{
+            width: 50%;
+        }
+    
+        .content{
+            width:90%;
+        }
+
+        .content>h1{
+            font-size: 30px;
+        }
+
+        .content>p{
+            font-size: 18px;
+        }
+
+        .content>button{
+            font-size: 15px;
+        }
+
+        .chhead>p{
+            width: 90%;
+            font-size: 15px;
+        }
+
+        .chhead>h3{
+            font-size: 25px;
+        }
+
+        .chflex{
+            flex-direction: column;
+        }
+
+        .chef1>img{
+            width: 10.1875rem;
+            height: 10.1875rem;
+            
+            
+        }
+        .chef1>h4{
+            font-size: 25px;
+            
+        }
+        
+        .chef1>p{
+            font-size: 20px;
+            padding-bottom: 8%;
+        }
+
+        .bcon>h3{
+            font-size: 20px;
+         
+        }
+    
+        .bcon>p{
+            font-size: 15px;
+            
+        }
+    
+        .bcon>button{
+            font-size: 15px;
+        }
+
+        .statehead>h3{
+            font-size: 25px;        
+        }
+
+        .statehead>p{
+            font-size: 15px;
+        }
+
+        .stateflex{
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .sf1{
+            padding: 6%;
+           
+            width: 45%;
+            margin: 0 auto;
+          
+        }
+    
+        #pp>h3{
+            font-size: 28px;
+        }
+
+        .pflex{
+            flex-direction: column;
+            gap: 20px;
+        }
+        .pack1{
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .pack1 :nth-child(4)
+        {
+            font-size: 17px;
+        }
+        .pack1>button{
+            font-size: 15px
+        }
+
+        .bgcontent{
+            width: 90%;
+            margin: 0 auto;
+        }
+        
+        .bgcontent>p{
+            font-size: 20px;
+        }
+
+        .bgcontent>h2{
+            font-size: 25px;
+        }
+
+        .upcon>h2{
+            font-size: 20px;
+        }
+
+        .upcon>p{
+            width: 80%;
+        }
+
+        .upform>input{
+            width: 40%;
+            font-size: 10px;
+        }
+
+        .upform>button{
+           width: 25%;
+           font-size: 10px;
+        }
+
+        .foot{
+            flex-direction: column;
+            gap: 25px;
+        }
+        .foot1{
+            width: 90%;
+            margin: 0 auto;
+        }
+        .foot1>h2{
+            font-size: 25px;
+        }
+
+        .foot1>p{
+            font-size: 15px;
+        }
+        .foot2{
+            margin: 0 auto;
+            width: 95%;
+        }
+
+        #kl>h5{
+            font-size: 18px;
+            
+        }
+        
+        #lk>a{
+            font-size: 14px;
+            
+        }
+        
+        
+    }
+

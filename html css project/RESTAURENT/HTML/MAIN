@@ -1,0 +1,29 @@
+                            <div class="ioimg">
+
+                                
+                                <img src="../IMAGES/ph1.png" alt="">
+                            </div>
+                            <div class="iocont">
+                                <h2>Jhon Smith <span id="jk">Aug/12/21 </span> </h2>
+                                
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, quidem.</p>
+                                <p> ✰ ✰ ✰ ✰ ✰</p>
+                            </div>
+
+
+
+
+                            <div class="io">
+                                <div class="ioimg">
+    
+                                    
+                                    <img src="../IMAGES/ph1.png" alt="">
+                                </div>
+                                <div class="iocont">
+                                    <h2>Jhon Smith <span id="jk">Aug/12/21 </span> </h2>
+                                    
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, quidem.</p>
+                                    <p> ✰ ✰ ✰ ✰ ✰</p>
+                                </div>
+                            </div>
+    

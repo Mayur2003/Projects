@@ -1,0 +1,469 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    /* color-scheme: dark; */
+
+}
+
+#bgimg{
+    background-image: url(../multimedia/headbgimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.shadow{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9999999999999999) 85%, rgba(0, 0, 0, 0.9999999999999999) 100%);
+}
+
+#navbar{
+    padding: 1%;
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+    position: relative;
+    align-items: center;
+}
+
+#links{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    font-size: 22px;
+}
+
+.logo>img{
+    width: 90%;
+}
+
+#menu{
+    display: none;
+    position: absolute;
+    right: 3%;
+    top: 30%;
+    position: relative;
+}
+
+#menu>summary{
+    color: aliceblue;
+}
+
+#io{
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+
+#io>li{
+    padding: block;
+    padding-inline: 1%;
+    font-weight: 900;
+    color: aliceblue;
+    backdrop-filter: blur(54px);
+    
+}
+
+#io>li:hover{
+    border: 3px groove greenyellow;
+}
+
+a{
+    color: aliceblue;
+}
+
+.content{
+    margin-left: 3%;
+    color: aliceblue;
+    padding-top: 11%;
+    width: 45%;
+    padding-bottom: 9.3%;
+}
+
+.content>h1{
+    font-size: 55px;
+    padding-bottom: 6%;
+}
+
+.content>p{
+    font-size: 25px;
+    text-align: justify;
+    padding-bottom: 6%;
+}
+
+.content>button{
+    padding: 2% 9%;
+    background-color: crimson;
+    color: aliceblue;
+    border-radius: 120px;
+    font-size: 30px;
+}
+
+
+
+/* section 2 css */
+
+#chef{
+    background-color: cornsilk;
+    color: crimson;
+    padding-top: 10%;
+    padding-bottom: 8%;
+}
+.chflex{
+    display: flex;
+    margin-left: 3%;
+    width: 98%;
+    justify-content: space-around;
+}
+.chhead{
+    text-align: center;
+   
+}
+
+.chhead>h3{
+    font-size: 50px;
+}
+
+.chhead>p{
+    width: 55%;
+    margin: 0 auto;
+    padding-top: 3%;
+    font-size: 22px;
+    padding-bottom: 3%;
+}
+
+
+
+.chef1>img{
+    width: 15.1875rem;
+    height: 15.1875rem;
+    border-radius: 50%;
+    
+}
+.chef1>h4{
+    font-size: 33px;
+    margin-top: 3%;
+    padding-bottom: 3%;
+}
+
+.chef1>p{
+    font-size: 22px;
+    padding-bottom: 8%;
+}
+.chef1{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* section 3 css */
+
+#bigburger{
+    color: cornsilk;
+    background-color: crimson;
+    padding-block: 7%;
+    padding-bottom: 4%;
+}
+
+.burger{
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+}
+
+.bimg{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin-inline: auto;
+    padding-block: 12%;
+    align-items: center;
+}
+
+.bimg>img{
+    border-radius: 50%;
+    height: 90%;
+}
+
+.bcon{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.bcon>h3{
+    font-size: 50px;
+    padding-bottom: 2%;
+}
+
+.bcon>p{
+    font-size: 22px;
+    padding-bottom: 2%;
+}
+.bcon>button{
+    padding: 2% 9%;
+    background-color: cornsilk;
+    color:crimson;
+    border-radius: 120px;
+    font-size: 22px;
+}
+
+
+/* section 4 css start  */
+
+#bestburger{
+    color: crimson;
+    background-color: cornsilk;
+
+    padding-bottom: 4%;
+}
+#op{
+    background-color: crimson;
+    color: aliceblue;
+}
+
+
+/* SECTION 5 STATISTICS STARTED */
+
+#stati{
+    padding-block: 12%;
+    background-color: crimson;
+    color: aliceblue;
+}
+
+.statehead{
+    text-align: center;
+}
+
+.statehead>h3{
+    font-size: 55px;
+    padding-bottom: 2%;
+}
+
+.statehead>p{
+    font-size: 25px;
+    width: 80%;
+    margin-inline: auto;
+    padding-block-end: 4%;
+}
+
+.stateflex{
+    margin-left: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sf1{
+    text-align: center;
+    padding: 4%;
+    border-radius: 50%;
+    border: 1px solid aliceblue;
+}
+
+.sf1>h2{
+    font-size: 80px;
+}
+
+.sf1>h4{
+    font-size: 30px;
+}
+
+/* popular package css started */
+
+#pp{
+    padding-block: 3%;
+    background-color: cornsilk;
+    color: crimson;
+}
+#pp>h3{
+    font-size: 50px;
+    text-align: center;
+    padding-block-end: 10%;
+}
+
+.pflex{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 3%;
+}
+
+.pack1{
+    width: 25%;
+    
+    background-color: aliceblue;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pack1>h2{
+    font-size:30px;
+    padding-block: 2%;
+  
+}
+
+.pack1>img{
+    width: 25%;
+    padding-block: 5%;
+    
+}
+
+.pack1 :nth-child(3){
+    padding-block: 4%;
+    font-size: 22px;
+}
+
+.pack1 :nth-child(4){
+    padding-block: 4%;
+    font-size: 22px;
+    width: 90%;
+    font-weight: 800    ;
+    text-align: justify;
+}
+
+.pack1>button{
+    font-size: 20px;
+    padding: 2% 5%;
+    border-radius: 120px;
+    background-color: crimson;
+    color: aliceblue;
+    margin-bottom: 6%;
+}
+
+.sec7img{
+    background: url(../multimedia/headbgimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgcolor{
+    background-color: rgba(220, 20, 60, 0.63);
+    height: 90%;
+}
+
+.bgcontent{
+    padding-block: 20%;
+    margin-inline: auto;
+    width: 50%;
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+.bgcontent>p{
+    font-size: 30px;
+    font-weight: 800;
+    padding-block-end: 8%;
+}
+
+.bgcontent>h2{
+    font-size: 35px;
+    font-weight: 900;
+}
+
+/* section 8 css started */
+
+#sec8{
+    padding-block: 12%;
+    background-color: cornsilk;
+    color: crimson;
+}
+
+.upcon{
+    text-align: center;
+}
+
+.upcon>h2{
+    font-size: 40px;
+    word-spacing: 20px;
+    letter-spacing: 5px;
+    padding-block-end: 3%;
+    font-weight: 800;
+}
+
+.upcon>p{
+    font-size: 18px;
+    width: 50%;
+    margin-inline: auto;
+    font-weight: 750;
+}
+
+.upform{
+    padding-block: 7%;
+    
+}
+
+.upform>input{
+    width: 40%;
+    border: none;
+    background-color: white;
+    border-radius: 12px 0 0 12px;
+    margin-left: 20%;
+    padding: 1%;
+    color: black;
+    font-size: 18px
+}
+
+.upform>button{
+    width: 21%;
+    background-color: crimson;
+    padding: 1%;
+    border: none;
+    font-weight: 900;
+    color: aliceblue;
+    border-radius: 0rem 1.3125rem 1.3125rem 0rem;
+}
+
+/* footer css started */
+
+footer{
+    padding-block: 10%;
+    background-color: black;
+    color: aliceblue;
+}
+
+.foot{
+    margin-left: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot1{
+    display: flex;
+    flex-direction: column;
+
+    width: 38%;
+}
+
+.foot1>h2{
+    font-size: 45px;
+    margin-block-end: 5%;
+}
+
+.foot1>p{
+    font-size: 22px;
+    text-align: justify;
+}
+
+.foot2{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+#kl>h5{
+    font-size: 35px;
+    padding-block-end: 3%;
+}
+
+#lk>a{
+    font-size: 30px;
+    
+}
+
+/* FOOTER ENDS  */
